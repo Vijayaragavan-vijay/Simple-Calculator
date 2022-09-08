@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background-image: linear-gradient( 135deg, #FAB2FF 10%, #1904E5 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.calc {
+    padding: 20px;
+    /* border: 2px solid green; */
+    border-radius: 25px;
+    box-shadow: inset 6px 6px 10px #ffffff, 6px 6px 10px rgba(0, 0, 0, 0.4);
+    display: grid;
+    background-color: #ecf0f3;
+    grid-template-columns: repeat(4, 60px);
+}
+
+input {
+    grid-column: span 4;
+    height: 50px;
+    border: none;
+    box-shadow: inset -5px -5px 10px #ffffff, inset 5px 5px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 35px;
+    text-align: end;
+    margin: auto;
+    width: 240px;
+    padding: 15px;
+    font-size: 30px;
+    outline: none;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: crimson;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    background-color: #ecf0f3;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px white, -5px -5px 10px rgba(0, 0, 0, 0.4);
+    margin: 7px;
+    font-size: 18px;
+    color: crimson;
+}
+
+.style:hover {
+    font-size: 25px;
+}
+
+#eq {
+    width: 110px;
+    border-radius: 30px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="calc">
+            <input type="text" placeholder="0" id="input">
+            <button id="clear" class="style" onclick="Clear()">CL</button>
+            <button id="delete" class="style" onclick="Del()">DEL</button>
+            <button id="percent" class="style" onclick="Show('%')" value="%">%</button>
+            <button id="divide" class="style" onclick="Show('/')">/</button>
+            <button id="seven" class="style" onclick="Show('7')">7</button>
+            <button id="eight" class="style" onclick="Show('8')">8</button>
+            <button id="nine" class="style" onclick="Show('9')">9</button>
+            <button id="multiply" class="style" onclick="Show('*')">*</button>
+            <button id="four" class="style" onclick="Show('4')">4</button>
+            <button id="five" class="style" onclick="Show('5')">5</button>
+            <button id="six" class="style" onclick="Show('6')">6</button>
+            <button id="minus" class="style" onclick="Show('-')">-</button>
+            <button id="one" class="style" onclick="Show('1')">1</button>
+            <button id="two" class="style" onclick="Show('2')">2</button>
+            <button id="three" class="style" onclick="Show('3')">3</button>
+            <button id="adds" class="style" onclick="Show('+')">+</button>
+            <button id="dot" class="style" onclick="Show('.')">.</button>
+            <button id="zero" class="style" onclick="Show('0')">0</button>
+            <button id="eq" class="style" onclick="cal()">=</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
